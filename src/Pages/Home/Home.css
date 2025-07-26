@@ -1,0 +1,123 @@
+.home{
+    padding: 0px 10px;
+    padding-bottom: 100px;
+}
+
+.hero{
+    max-width: 600px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: max(4vw, 36px);
+}
+
+.hero p{
+    width: 70%;
+    color: #eeeeee;
+    line-height: 1.5;
+}
+
+.hero form{
+    padding: 8px;
+    width: 80%;
+    background-color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero input{
+    flex: 1;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+
+.hero button{
+    border: none;
+    background: #3a5066;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cryptoTable{
+    max-width: 800px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #3a5066;
+}
+
+.tableLayout{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1.5fr 1fr;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.change{
+    text-align: center;
+}
+
+.tableLayout:last-child{
+    border: none;
+}
+
+.tableLayout div{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+}
+
+.tableLayout div img{
+    height: 35px;
+    aspect-ratio: 1/1;
+}
+
+.tableLayout .green{
+    color: greenyellow;
+    text-align: center;
+}
+
+.tableLayout .red{
+    color: #ff0000;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .tableLayout{
+        grid-template-columns: 0.5fr 3fr 1fr 1fr;
+    }
+    .cap{
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+    .tableLayout div img{
+        height: 25px;
+    }
+    .tableLayout{
+        font-size: 13px;
+    }
+    .hero form input{
+        width: 100px;
+    }
+    .hero form{
+        width: 95%;
+    }
+}

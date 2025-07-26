@@ -1,0 +1,22 @@
+.about{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aboutLogo{
+    font-size: 100px;
+    margin: 3rem;
+    font-weight: 700;
+}
+
+@media (max-width: 900px) {
+    .about{
+        display: block;
+        height: 60vh;
+    }
+    .aboutLogo{
+        font-size: 60px;
+    }
+}

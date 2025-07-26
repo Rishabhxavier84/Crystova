@@ -1,0 +1,80 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    color: #fff;
+    border-bottom: 2px solid #ccc;
+    background-color: #2d3d4b;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.navbar h1, li, button{
+    cursor: pointer;
+}
+
+.navRight{
+    display: flex;
+    align-items: center;
+    gap: max(1vw, 12px);
+}
+
+.navRight select{
+    padding: 5px 8px;
+    border-radius: 6px;
+    border: 2px solid #ddd;
+    background: transparent;
+    color: #fff;
+}
+
+.navRight option{
+    background-color: #5978a1;
+    color: #fff;
+}
+
+.navRight button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    background: #fff;
+    color: #393939;
+    border: none;
+}
+
+@media (max-width: 900px) {
+    .navbar{
+        padding: 20px 8%;
+    }
+
+    .navbar button{
+        gap: 8px;
+        padding: 8px 18px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navbar{
+        padding: 20px 5%;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+    .navbar button, select{
+        font-size: 10px;
+    }
+}
