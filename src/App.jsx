@@ -15,6 +15,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home/>} />
+          <Route path="/Crystova" element={<Home />} />
           <Route path='/coin/:coinId' element={<Coin/>} />
           <Route path='/about' element={<About />} />
         </Routes>
