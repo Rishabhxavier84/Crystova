@@ -1,12 +1,17 @@
-# React + Vite
+# Crystova 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Crystova** is a responsive, modern website built on ReactJS library. It is fast, accessible across various devices
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Get latest data on various crypto currencies.
+- Responsive design(works on all devices).
+- Modern layout.
 
-## Expanding the ESLint configuration
+## 🚀 Demo
+Try Crystova here: [Crystova](https://rishabhxavier84.github.io/Crystova/) <br>
+Open the link and click on the logo. 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Technologies Used
+- **React.Js** -> frontend
+- **Coingecko API** -> for realtime coin data
